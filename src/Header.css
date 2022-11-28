@@ -1,0 +1,15 @@
+.Header {
+  box-shadow: rgba(0, 0, 0, 0.4) inset 0 0 0 100vw;
+  border-radius: 10px 10px 0px 0px;
+  line-height: 2;
+  margin: 0 -10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Time {
+  padding-right: 10px;
+  text-align: right;
+}
+.City {
+  padding-left: 10px;
+}

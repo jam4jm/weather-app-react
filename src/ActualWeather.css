@@ -1,0 +1,10 @@
+.ActualWeather {
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px 20px;
+  border-radius: 10px;
+  width: 600px;
+  max-width: 90%;
+  color: #fff;
+  background-color: #47b5ff;
+}

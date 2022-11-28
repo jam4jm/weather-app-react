@@ -1,0 +1,32 @@
+.WeatherForecast {
+  display: block;
+  margin: 30px auto;
+  padding: 11px 20px;
+  border-radius: 10px;
+  width: 600px;
+  max-width: 90%;
+  color: #111;
+  background-color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+.DayForecast {
+  text-align: center;
+  line-height: 1;
+}
+.Date {
+  line-height: 2;
+}
+.MaxDayTemperature {
+  font-size: 25px;
+}
+.MinDayTemperature {
+  font-size: 25px;
+  font-weight: normal;
+}
+.ForecastWeatherIcon {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10%;
+  width: 50%;
+}

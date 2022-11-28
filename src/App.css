@@ -1,0 +1,11 @@
+.App {
+  font-family: "Roboto", sans-serif;
+}
+.ContainerWeather {
+  display: block;
+  margin: 0 auto;
+  background-color: #dff6ff;
+  width: 650px;
+  max-width: 100%;
+  padding-bottom: 1px;
+}

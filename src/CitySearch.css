@@ -1,0 +1,12 @@
+form {
+  display: block;
+  margin: 10vh 0 30px;
+  padding-top: 27px;
+  text-align: center;
+}
+input[type="text"] {
+  border: 3px solid rgb(114, 112, 112);
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 2;
+}
