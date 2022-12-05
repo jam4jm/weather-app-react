@@ -12,7 +12,7 @@ export default function WeatherForecast() {
           <div className="MinDayTemperature">25°C</div>
           <img
             className="ForecastWeatherIcon"
-            src="img/sunny.png"
+            src="img/02d.png"
             alt="weathericon"
           />
         </div>
@@ -22,7 +22,7 @@ export default function WeatherForecast() {
           <div className="MinDayTemperature">17°C</div>
           <img
             className="ForecastWeatherIcon"
-            src="img/sun.png"
+            src="img/03d.png"
             alt="weathericon"
           />
         </div>
@@ -32,7 +32,7 @@ export default function WeatherForecast() {
           <div className="MinDayTemperature">21°C</div>
           <img
             className="ForecastWeatherIcon"
-            src="img/sun.png"
+            src="img/09d.png"
             alt="weathericon"
           />
         </div>
@@ -42,7 +42,7 @@ export default function WeatherForecast() {
           <div className="MinDayTemperature">19°C</div>
           <img
             className="ForecastWeatherIcon"
-            src="img/rain.png"
+            src="img/01d.png"
             alt="weathericon"
           />
         </div>
