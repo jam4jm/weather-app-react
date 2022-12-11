@@ -21,7 +21,7 @@ export default function CitySearch() {
       icon: response.data.weather[0].icon,
     });
   }
-  function search() {
+  function Search() {
     let apiKey = "5d9e2b27efed7d8f99a351a14fe276b8";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(ShowWeather);
@@ -29,7 +29,7 @@ export default function CitySearch() {
 
   function Submit(event) {
     event.preventDefault();
-    search();
+    Search();
   }
 
   function updateCity(event) {
@@ -54,7 +54,7 @@ export default function CitySearch() {
       </div>
     );
   } else {
-    search();
+    Search();
     return "Loading...";
   }
 }

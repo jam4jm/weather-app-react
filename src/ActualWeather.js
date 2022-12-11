@@ -24,12 +24,8 @@ export default function ActualWeather(props) {
           </div>
         </div>
         <div className="col-sm-2 TemperatureRange">
-          <div className="MaxTemperature" id="maxTemperature">
-            12°C
-          </div>
-          <div className="MinTemperature" id="minTemperature">
-            5°C
-          </div>
+          <div className="MaxTemperature" id="maxTemperature"></div>
+          <div className="MinTemperature" id="minTemperature"></div>
         </div>
         <div className="col-sm-2 WeatherDetailsTitle">
           <div>Humidity</div>
