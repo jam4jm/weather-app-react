@@ -10,15 +10,15 @@ export default function CitySearch() {
   function ShowWeather(response) {
     setWeather({
       ready: true,
+      city: response.data.name,
+      date: new Date(response.data.dt * 1000),
       coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
+      wind: response.data.wind.speed,
       pressure: response.data.main.pressure,
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
-      wind: response.data.wind.speed,
-      city: response.data.name,
-      date: new Date(response.data.dt * 1000),
     });
   }
   function search() {

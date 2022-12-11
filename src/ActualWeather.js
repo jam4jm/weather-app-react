@@ -1,5 +1,7 @@
 import React from "react";
 import "./ActualWeather.css";
+import Time from "./Time";
+
 export default function ActualWeather(props) {
   let icon = `./img/${props.data.icon}.png`;
   return (
@@ -9,7 +11,7 @@ export default function ActualWeather(props) {
           {props.data.city}
         </div>
         <div className="col-6 Time" id="time">
-          Sunday, 13:34
+          <Time time={props.data.date} />
         </div>
       </div>
       <div className="row WeatherToday">
