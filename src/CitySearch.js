@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./CitySearch.css";
 import ActualWeather from "./ActualWeather";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
 export default function CitySearch() {
@@ -51,6 +52,7 @@ export default function CitySearch() {
           </form>
         </div>
         <ActualWeather data={weather} />
+        <WeatherForecast coordinates={weather.coordinates} />
       </div>
     );
   } else {

@@ -14,19 +14,3 @@
   text-align: center;
   line-height: 1;
 }
-.Date {
-  line-height: 2;
-}
-.MaxDayTemperature {
-  font-size: 25px;
-}
-.MinDayTemperature {
-  font-size: 25px;
-  font-weight: normal;
-}
-.ForecastWeatherIcon {
-  display: block;
-  margin: 0 auto;
-  padding-top: 10%;
-  width: 50%;
-}
