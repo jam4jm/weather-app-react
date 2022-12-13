@@ -1,6 +1,7 @@
 import React from "react";
 import "./ActualWeather.css";
 import Time from "./Time";
+import DayTemperature from "./DayTemperature";
 
 export default function ActualWeather(props) {
   let icon = `./img/${props.data.icon}.png`;
@@ -24,8 +25,7 @@ export default function ActualWeather(props) {
           </div>
         </div>
         <div className="col-sm-2 TemperatureRange">
-          <div className="MaxTemperature" id="maxTemperature"></div>
-          <div className="MinTemperature" id="minTemperature"></div>
+          <DayTemperature coordinates={props.data.coordinates} />
         </div>
         <div className="col-sm-2 WeatherDetailsTitle">
           <div>Humidity</div>
